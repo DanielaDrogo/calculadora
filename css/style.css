@@ -1,0 +1,212 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background: rgb(183,0,199);
+    background: linear-gradient(0deg, rgba(183,0,199,1) 0%, rgba(123,0,167,1) 70%, rgba(66,0,136,1) 100%);
+}
+
+header{
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+
+}
+
+/* ----- */
+
+main{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+
+.calculadora{
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 20px 20px 20px rgb(43, 43, 43);
+    background: rgb(131,35,190);
+    background: linear-gradient(40deg, rgba(131,35,190,1) 0%, rgba(253,45,140,1) 69%, rgba(255,198,224,1) 100%);
+    border-radius: 118px 51px 180px 16px;
+    -moz-border-radius: 118px 51px 180px 16px;
+    -webkit-border-radius: 118px 51px 180px 16px;
+    border: 0px solid #000000
+}
+
+.pantalla {
+    margin-bottom: 10px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 70px 13px 30px 8px;
+    background-color: #f3dcf5;
+    width: 310px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+
+.operaciones{
+    border: none;
+    border-radius: 100px 45px 0px 10px; 
+    background-color: rgba(0, 255, 255, 0);
+    width: 290px;
+    height: 35px;  
+    text-align: right;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 2px;
+}
+
+#mensaje_error{
+    height: 30px;
+    color: red;
+    text-align: right;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 4px;
+}
+
+.total{
+    height: 50px;
+    font-size: 30px;
+    text-align: right;
+    padding-right: 10px;
+}    
+
+.botones2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.botones{
+    display: flex;
+}
+
+.renglon-numeros{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-numero{
+    background: rgb(239,175,255);
+    background: radial-gradient(circle, rgba(239,175,255,1) 0%, rgba(238,170,255,1) 45%, rgba(223,94,255,1) 100%);
+}
+
+.btn-numero:hover{
+    background: rgb(233,144,255);
+    background: radial-gradient(circle, rgba(233,144,255,1) 0%, rgba(210,32,255,1) 100%);
+}
+
+.btn-numero:active{
+    background: rgb(204,0,255);
+    background: radial-gradient(circle, rgba(204,0,255,1) 0%, rgba(125,0,156,1) 100%);
+    color: white;
+}
+
+.simbolos{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-simbolo{
+    background: rgb(120,187,250);
+    background: radial-gradient(circle, rgba(120,187,250,1) 0%, rgba(62,161,252,1) 72%, rgba(0,132,255,1) 100%);
+}
+
+.btn-simbolo:hover{
+    background: rgb(31,147,255);
+    background: radial-gradient(circle, rgba(31,147,255,1) 0%, rgba(0,107,207,1) 100%);
+    
+}
+
+.btn-simbolo:active{
+    background: rgb(0,104,255);
+    background: radial-gradient(circle, rgba(0,104,255,1) 0%, rgba(0,0,238,1) 100%);
+    color: white
+}
+
+.borrar{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-borrar{
+    background-color: #ff2020;
+    background: rgb(255,60,60);
+    background: radial-gradient(circle, rgba(255,60,60,1) 0%, rgba(255,12,12,1) 53%, rgba(255,0,0,1) 100%);
+}
+
+.btn-borrar:hover{
+    background: rgb(255,0,0);
+    background: radial-gradient(circle, rgba(255,0,0,1) 21%, rgba(181,0,0,1) 100%);
+}
+
+.btn-borrar:active{
+    background: rgb(156,0,0);
+    background: radial-gradient(circle, rgba(156,0,0,1) 0%, rgba(91,0,0,1) 100%);
+    color: white;
+}
+
+button{
+    height: 65px;
+    width: 65px;
+    margin: 3px;
+    font-size:xx-large;
+    border-radius: 10px;
+}
+
+.btn-borrar{
+    height: 50px;
+}
+
+/* ----- */
+
+footer{
+    text-align: center;
+    color: white;
+}
+
+
+@media (max-width: 600px) {
+
+    .calculadora{
+        width: 385px;
+        height: 490px;
+    } 
+
+    .pantalla{
+        width: 295px;
+        height: 70px; 
+    }
+
+    .operaciones{
+        width: 270px;
+        height: 35px;
+    }
+
+    button{
+        height: 63px;
+        width: 63px;
+        margin: 3px;
+        font-size:xx-large;
+        border-radius: 10px;
+    }
+
+}
+

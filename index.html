@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        Calculadora
+    </header>
+    <main>
+
+        <div class="calculadora">
+
+            <div class="pantalla">
+                <input type="text" name="operacion" id="pantalla_operaciones" class="operaciones">
+                <p id="mensaje_error"></p>
+            </div>
+            
+            <div class="botones2">
+                <div class="botones">
+            
+                    <div class="numeros">
+                        <div class="renglon-numeros">
+                            <button class="btn-numero" id="b1" onclick="escribirNumero(1)">1</button>
+                            <button class="btn-numero" id="b2" onclick="escribirNumero(2)">2</button>
+                            <button class="btn-numero" id="b3" onclick="escribirNumero(3)">3</button>
+                        </div>
+                        <div class="renglon-numeros">
+                            <button class="btn-numero" id="b4" onclick="escribirNumero(4)">4</button>
+                            <button class="btn-numero" id="b5" onclick="escribirNumero(5)">5</button>
+                            <button class="btn-numero" id="b6" onclick="escribirNumero(6)">6</button>
+                        </div>
+                        <div class="renglon-numeros">
+                            <button class="btn-numero" id="b7" onclick="escribirNumero(7)">7</button>
+                            <button class="btn-numero" id="b8" onclick="escribirNumero(8)">8</button>
+                            <button class="btn-numero" id="b9" onclick="escribirNumero(9)">9</button>
+                        </div>
+                        <div class="renglon-numeros">
+                            <button class="btn-numero" id="b0" onclick="escribirNumero(0)">0</button>
+                            <button class="btn-numero" id="btn-comaDecimal" onclick="escribirNumero('.')">,</button>
+                            <button class="btn-numero" id="btn-igual" onclick="calcular()">=</button>
+                        </div>
+                    </div>
+            
+                    <div class="simbolos">
+                        <button class="btn-simbolo" id="btn-suma" onclick="escribirNumero('+')">+</button>
+                        <button class="btn-simbolo" id="btn-resta" onclick="escribirNumero('-')">-</button> 
+                        <button class="btn-simbolo" id="btn-multiplicacion" onclick="escribirNumero('*')">x</button>
+                        <button class="btn-simbolo" id="btn-division" onclick="escribirNumero('/')">÷</button>
+                    </div>
+            
+                </div>
+            
+                <div class="borrar">
+                    <button class="btn-borrar" id="btn-borrarUnNumero" onclick="borrarUnNumero()">Del</button>
+                    <button class="btn-borrar" id="btn-borrarTodo" onclick="borrarTodo()">AC</button>
+                </div>
+            </div>
+            
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Calculadora de Daniela copyright© todos los derechos reservados. </p>
+    </footer>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
