@@ -212,5 +212,8 @@ footer{
         border-radius: 10px;
     }
 
+    footer{
+        padding-bottom: 3px;
+    }
 }
 
