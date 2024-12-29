@@ -9,6 +9,7 @@ body{
 }
 
 header{
+    padding-top: 3px;
     text-align: center;
     color: white;
     font-size: xx-large;
@@ -180,6 +181,7 @@ button{
 footer{
     text-align: center;
     color: white;
+    padding-bottom: 3px;
 }
 
 
@@ -212,8 +214,6 @@ footer{
         border-radius: 10px;
     }
 
-    footer{
-        padding-bottom: 3px;
-    }
+    
 }
 
