@@ -190,12 +190,12 @@ footer{
     }
 
     .calculadora{
-        width: 385px;
+        width: 340px;
         height: 490px;
     } 
 
     .pantalla{
-        width: 295px;
+        width: 265px;
         height: 70px; 
     }
 
@@ -205,10 +205,10 @@ footer{
     }
 
     button{
-        height: 63px;
-        width: 63px;
+        height: 57px;
+        width: 57px;
         margin: 3px;
-        font-size:xx-large;
+        font-size: xx-large;
         border-radius: 10px;
     }
 
