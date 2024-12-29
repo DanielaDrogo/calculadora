@@ -186,27 +186,27 @@ footer{
 @media (max-width: 600px) {
 
     main{
-        height: 80vh;
+        height: 79vh;
     }
 
     .calculadora{
-        width: 340px;
+        width: 355px;
         height: 490px;
     } 
 
     .pantalla{
-        width: 265px;
+        width: 270px;
         height: 70px; 
     }
 
     .operaciones{
-        width: 270px;
+        width: 260px;
         height: 35px;
     }
 
     button{
-        height: 57px;
-        width: 57px;
+        height: 59px;
+        width: 59px;
         margin: 3px;
         font-size: xx-large;
         border-radius: 10px;
